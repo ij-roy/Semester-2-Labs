@@ -6,6 +6,6 @@
 int main(){
     char d;
     d = getche();
-    
+    putch(d);
     return 0;
 }
