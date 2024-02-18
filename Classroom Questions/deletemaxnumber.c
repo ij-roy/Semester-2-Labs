@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-
 int findmax(int a) {
     int num = a, digit, max = 0;
     while (num > 0) {
@@ -12,7 +11,6 @@ int findmax(int a) {
     }
     return max;
 }
-
 int removemax(int a, int b) {
     int num = b, max = a, ij = 0, digit, new = 0,power = 1;
     while (num > 0) {
@@ -25,11 +23,9 @@ int removemax(int a, int b) {
             ij = ij + 1;
             power *= 10;
         }
-    }
-    
+    }    
     return new;
 }
-
 int main() {
     int num, max, new;
     printf("Enter a number: ");
