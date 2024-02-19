@@ -7,9 +7,9 @@ int main(){
     char name[23];
     int rollno, s1, s2, s3, s4; 
     float prect;
-    printf("Enter name, roll no, s1, s2 ,s3,s4\n");
+    printf("Enter name, roll no, s1, s2 ,s3,s4\n-> ");
     scanf("%s%d%d%d%d%d",&name,&rollno,&s1,&s2,&s3,&s4);
     prect = (float)(s1+s2+s3+s4)/4;
-    printf("%s\n%d\n%-.2f",name,rollno,prect); 
+    printf("Name : %s\nRoll Number : %d\nPercentage Scored : %-.2f%%",name,rollno,prect); 
     return 0;
 }
