@@ -7,7 +7,7 @@ int main(){
     unsigned int b = 2;
     unsigned int sub1 = a-b;
     unsigned int sub2 = b-a;
-    printf("%d %d",a-b);
-    printf("%d",b-a);
+    printf("%d %d",a-b); // 1
+    printf("%d",b-a); // 6422356-3
     return 0;
 }

@@ -1,9 +1,13 @@
 /*
-Q5: Assume you have a box of n chocolates. Take n from the user. Kids can take chocolates from the box repeatedly till number of 
-chocolates are zero or they want to exit the program. The number of chocolates, g, that are to be each time, is also to be taken from 
-the user. If a kid takes one chocolate a message should be displayed “Chocolates left on box: 1”. The message must show the exact number 
-of chocolates taken from the box each time. Write a function called gift. Here, (a) the input g, (b) the update in the count in the box 
-should take place, and (c) display the message.
+Q5: Assume you have a box of n chocolates. Take n from the user. Kids can take chocolates from the box 
+repeatedly till number of chocolates are zero or they want to exit the program. The number of chocolates, g, 
+that are to be each time, is also to be taken from the user. If a kid takes one chocolate a message should 
+be displayed “Chocolates left on box: 1”. The message must show the exact number of chocolates taken from 
+the box each time. Write a function called gift. 
+Here, 
+(a) the input g, 
+(b) the update in the count in the box should take place, and 
+(c) display the message.
 
 Sample: Box has 10 chocolates 
 
